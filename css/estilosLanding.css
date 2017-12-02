@@ -1,0 +1,11 @@
+main{
+    margin:auto;
+    width: 90%;
+}
+@media screen and (min-width:992px){
+    main section,
+    main figure{
+        float:left;
+        width:50%;
+    }
+}
