@@ -8,8 +8,6 @@ header nav a{
 }
 @media screen and (max-width:991px) {
     header nav a{
-        color: red;
-        font-weight: bold;
-        text-decoration: none;
+        display:block;
     }
 }
