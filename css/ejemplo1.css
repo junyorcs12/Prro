@@ -1,7 +1,10 @@
 img {
     max-width: 100%;
+    display: block;
+    margin: auto;
 }
 header nav a{
+    font-size: 30px;
     color: red;
     font-weight: bold;
     text-decoration: none;
@@ -9,5 +12,21 @@ header nav a{
 @media screen and (max-width:991px) {
     header nav a{
         display:block;
+    }
+}
+footer p{
+    color: red;
+}
+body p{
+    color:red;
+    font-size: 30px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    text-align: justify;
+}
+@media screen and (max-width:991px) {
+    body p{
+        display:block;
+        font-size: 20px;
     }
 }
